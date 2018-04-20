@@ -1,0 +1,70 @@
+$frame
+{
+	$texture "textures/frame.png"
+	$pos 66 215
+	$size 6 6
+}
+
+$image
+{
+	$res
+	{
+		$texture "textures/title.png"
+	}
+	
+	$pos 64 0
+	$size 512 256
+	$color 1 1 1 1
+}
+
+$image
+{
+	$res
+	{
+		$texture "textures/logo.png"
+	}
+	
+	$pos 410 290
+	$size 256 256
+	$color 1 1 1 1
+}
+
+$simple_button
+{
+	$id "ID_NEW_GAME"
+	$style "IDS_BUT_BIG"
+	$pos 94 247
+	$text "Start new game"
+}
+
+$simple_button
+{
+	$id "ID_ONLINE"
+	$style "IDS_BUT_BIG"
+	$pos 94 287
+	$text "Online hiscores..."
+}
+
+$simple_button
+{
+	$id "ID_OPTIONS"
+	$style "IDS_BUT_BIG"
+	$pos 94 327
+	$text "Options"
+}
+
+$simple_button
+{
+	$id "ID_MORE_GAMES"
+	$style "IDS_BUT_BIG"
+	$pos 94 367
+	$text "More free games..."
+}
+
+$simple_button
+{
+	$id "ID_EXIT"
+	$style "IDS_BUT_BIG"
+	$pos 94 405
+	$text "Exit"
+}

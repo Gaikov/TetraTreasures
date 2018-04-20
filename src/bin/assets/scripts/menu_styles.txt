@@ -1,0 +1,131 @@
+//==============================================================================================
+$simple_button
+{
+	$id "IDS_BUTTON"	
+	$font "fonts/menu.txt"
+	$text_color 0 1 0 1
+	$text_scale 1 1
+
+	$img_up
+	{
+		$texture "textures/buttons.png"
+		$tex_pos 0 0
+		$tex_size 144 33
+	}
+
+	$img_over
+	{
+		$texture "textures/buttons.png"
+		$tex_pos 0 33
+		$tex_size 144 33
+	}
+
+	$img_down
+	{
+		$texture "textures/buttons.png"
+		$tex_pos 0 66
+		$tex_size 144 33
+	}
+
+	$sound_over "sounds/but_over.ogg"
+	$sound_down "sounds/but_down.ogg"
+}
+
+//==============================================================================================
+$simple_button
+{
+	$id "IDS_BUT_BIG"	
+	$font "fonts/menu.txt"
+	$text_color 0 1 0 1
+	$text_scale 1 1
+
+	$img_up
+	{
+		$texture "textures/buttons.png"
+		$tex_pos 0 99
+		$tex_size 200 33
+	}
+
+	$img_over
+	{
+		$texture "textures/buttons.png"
+		$tex_pos 0 132
+		$tex_size 200 33
+	}
+
+	$img_down
+	{
+		$texture "textures/buttons.png"
+		$tex_pos 0 165
+		$tex_size 200 33
+	}
+
+	$sound_over "sounds/but_over.ogg"
+	$sound_down "sounds/but_down.ogg"
+}
+
+//==============================================================================================
+$simple_check
+{
+	$id "IDS_CHECK"
+	$font "fonts/default.txt"
+	$text_color 0 0 0 1
+	$text_scale 0.7 0.7	
+
+	$img_check
+	{
+		$texture "textures/ctrl.png"
+		$tex_pos 120 36
+		$tex_size 29 31
+	}
+
+	$img_up
+	{
+		$texture "textures/ctrl.png"
+		$tex_pos 151 0
+		$tex_size 29 29
+	}
+
+	$img_over
+	{
+		$texture "textures/ctrl.png"
+		$tex_pos 120 0
+		$tex_size 29 29
+	}
+
+	$img_down
+	{
+		$texture "textures/ctrl.png"
+		$tex_pos 182 0
+		$tex_size 29 29
+	}
+
+	$sound_over "sounds/but_over.ogg"
+	$sound_down "sounds/but_down.ogg"
+}
+
+//==============================================================================================
+$simple_edit
+{
+	$id "IDS_EDIT"
+	$font "fonts/menu.txt"
+	$text_color 0 0 0 1
+	$text_scale 1 1
+	
+	$img_up
+	{
+		$texture "textures/edit.png"
+		$tex_pos 0 0
+		$tex_size 255 33
+	}
+
+	$img_over
+	{
+		$texture "textures/edit.png"
+		$tex_pos 0 33
+		$tex_size 255 33
+	}
+
+	$sound_over "sounds/but_over.ogg"
+}
+

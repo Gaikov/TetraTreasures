@@ -1,0 +1,114 @@
+$draw_parent 1
+
+$frame
+{
+	$texture "textures/frame.png"
+	$pos 128 150
+	$size 9 6
+}
+
+$text
+{
+	$font "fonts/menu.txt"
+	$text "SUBMIT YOUR SCORE"
+	$scale 1 1
+	$color 1 1 0 1
+	$h_align "center"
+	$pos 320 190
+}
+
+$text
+{
+	$font "fonts/menu.txt"
+	$text "Score: "
+	$scale 1 1
+	$color 1 1 1 1
+	$h_align "right"
+	$pos 315 230
+}
+
+$text
+{
+	$id "IDT_SCORE"
+	$font "fonts/numbers.txt"
+	$text "10000"
+	$scale 1 1
+	$color 1 1 1 1
+	$h_align "left"
+	$pos 325 230
+}
+
+$text
+{
+	$font "fonts/menu.txt"
+	$text "Time: "
+	$scale 1 1
+	$color 1 1 1 1
+	$h_align "right"
+	$pos 315 260
+}
+
+$text
+{
+	$id "IDT_TIME"
+	$font "fonts/numbers.txt"
+	$text "00:00:00"
+	$scale 1 1
+	$color 1 1 1 1
+	$h_align "left"
+	$pos 325 260
+}
+
+$text
+{
+	$font "fonts/menu.txt"
+	$text "Enter your name:"
+	$scale 1 1
+	$color 1 1 0 1
+	$h_align "center"
+	$pos 320 290
+}
+
+$image
+{
+	$res
+	{
+		$texture "textures/game_over.png"
+	}
+	
+	$pos 64 20
+	$size 512 128
+	$color 1 1 1 1
+}
+
+/*$image
+{
+	$pos 0 0
+	$size 640 480
+	$color 0 0 0 0.5
+}*/
+
+$simple_edit
+{
+	$id "ID_NAME"
+	$style "IDS_EDIT"
+	$pos 192 300
+	$text_margin 10
+	$max_len 20
+}
+
+$simple_button
+{
+	$id "ID_SUBMIT"
+	$style "IDS_BUTTON"
+	$pos 166 350
+	$text "Submit"
+}
+
+$simple_button
+{
+	$id "ID_CANCEL"
+	$style "IDS_BUTTON"
+	$pos 330 350
+	$text "Cancel"
+}

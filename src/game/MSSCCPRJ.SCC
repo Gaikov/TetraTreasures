@@ -1,0 +1,5 @@
+SCC = This is a source code control file
+
+[game.vcproj]
+SCC_Aux_Path = "P4SCC#localhost:1666##roman##Tetra-Treasure"
+SCC_Project_Name = Perforce Project

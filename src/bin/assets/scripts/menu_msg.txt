@@ -1,0 +1,41 @@
+$draw_parent 1
+
+$frame
+{
+	$texture "textures/frame.png"
+	$pos 107 134
+	$size 10 5
+}
+
+//=================================== score ===============================
+$text
+{
+	$id "IDT_CAPTION"
+	$font "fonts/menu.txt"
+	$text "cap"
+	$scale 1 1
+	$color 1 0 0 1
+	$h_align "center"
+	$pos 320 180
+}
+
+//=================================== time ===============================
+$text
+{
+	$id "IDT_MESSAGE"
+	$font "fonts/menu.txt"
+	$text "msg"
+	$scale 1 1
+	$color 1 1 1 1
+	$h_align "center"
+	$pos 320 220
+	$line_step 23
+}
+
+$simple_button
+{
+	$id "ID_OK"
+	$style "IDS_BUTTON"
+	$pos 248 280
+	$text "OK"
+}

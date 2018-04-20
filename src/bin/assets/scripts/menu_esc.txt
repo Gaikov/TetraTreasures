@@ -1,0 +1,48 @@
+$draw_parent 1
+
+$frame
+{
+	$texture "textures/frame.png"
+	$pos 192 112
+	$size 6 6
+}
+
+$simple_button
+{
+	$id "ID_RESUME"
+	$style "IDS_BUT_BIG"
+	$pos 220 144
+	$text "Resume"
+}
+
+$simple_button
+{
+	$id "ID_NEW_GAME"
+	$style "IDS_BUT_BIG"
+	$pos 220 184
+	$text "Start new game"
+}
+
+$simple_button
+{
+	$id "ID_OPTIONS"
+	$style "IDS_BUT_BIG"
+	$pos 220 224
+	$text "Options"
+}
+
+$simple_button
+{
+	$id "ID_MORE_GAMES"
+	$style "IDS_BUT_BIG"
+	$pos 220 264
+	$text "More free games..."
+}
+
+$simple_button
+{
+	$id "ID_MAIN"
+	$style "IDS_BUT_BIG"
+	$pos 220 304
+	$text "Main menu"
+}

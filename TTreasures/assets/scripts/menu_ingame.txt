@@ -1,0 +1,55 @@
+$image
+{
+	$res
+	{
+		$texture "textures/pannel.jpg"
+		$tex_pos 0 0
+		$tex_size 640 480
+	}
+	
+	$pos 0 0
+	$size 640 480
+	$color 1 1 1 1
+}
+
+
+//=================================== score ===============================
+$text
+{
+	$id "IDT_SCORE"
+	$font "fonts/numbers.txt"
+	$text "$MONEY"
+	$scale 1 1
+	$color 1 1 1 1
+	$h_align "right"
+	$pos 605 62
+}
+
+//=================================== time ===============================
+$text
+{
+	$id "IDT_TIME"
+	$font "fonts/numbers.txt"
+	$text "TIME"
+	$scale 1 1
+	$color 1 1 1 1
+	$h_align "right"
+	$pos 605 132
+}
+
+
+$simple_button
+{
+	$id "ID_ONLINE"
+	$style "IDS_BUTTON"
+	$pos 482 380
+	$text "Hiscores..."
+}
+
+$simple_button
+{
+	$id "ID_MENU"
+	$style "IDS_BUTTON"
+	$pos 482 420
+	$text "Menu"
+}

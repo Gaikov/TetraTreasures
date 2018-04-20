@@ -1,0 +1,38 @@
+$texture "textures/part_back.png"
+$blend_mode "add"
+
+$part_count 50
+$size_scale 0.5 1
+$size_key 0 30
+$size_key 0.5 30
+$size_key 1 0
+
+$gravity 100 300
+
+$angle1 0
+$angle2 4
+$angle_rot -5 5
+$pos1 0 0
+$pos2 0 0
+$vel1 0 0
+$vel2 0 0
+
+$life_time1 1
+$life_time2 2
+
+$color_key
+{
+	$key 0
+	$color 1 1 1 0
+}
+
+$color_key
+{
+	$key 0.2
+	$color 1 1 1 1
+}
+
+
+
+
+

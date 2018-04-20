@@ -1,0 +1,38 @@
+$texture "textures/part_figure.jpg"
+$blend_mode "add"
+
+$part_count 20
+$size_scale 0.5 1
+$size_key 0 5
+$size_key 0.7 15
+$size_key 1 0
+
+$gravity 50 100
+
+$angle1 0
+$angle2 4
+$angle_rot -5 5
+$pos1 0 0
+$pos2 0 0
+$vel1 0 0
+$vel2 0 0
+
+$life_time1 0.5
+$life_time2 1
+
+$color_key
+{
+	$key 0
+	$color 1 1 1 0
+}
+
+$color_key
+{
+	$key 0.2
+	$color 1 1 1 1
+}
+
+
+
+
+
